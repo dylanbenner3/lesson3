@@ -1,0 +1,89 @@
+img {padding-left: 60px;
+    padding-right: 60px;
+    width: 300px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+/* Profile
+--------------------*/
+header{background-color: rgb(135, 223, 223);
+
+}
+/* Projects
+--------------------*/
+.Projects {background: rgb(160, 138, 223);}
+.Projects a {color:purple;
+text-decoration: none;
+padding: 8px;
+border-radius:4px;
+}
+/* Work Experience
+--------------------*/
+.work-experience {background: rgb(238, 213, 130);}
+
+/* Education
+--------------------*/
+.education {background:rgb(134, 248, 210)}
+/* In touch
+--------------------*/
+.in-touch {background:rgb(255, 104, 104)}
+
+h1{text-align:center;
+    font-style:normal;
+    text-align:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+h2{padding-left: 60px;
+    padding-right: 60px;
+    text-align:center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+p{padding-left: 60px;
+    padding-right: 60px;
+    text-align:center;
+    
+
+}
+h3{padding-left: 60px;
+    padding-right: 60px;
+    text-align:center;
+    font-family: fantasy;
+
+}
+*/
+
+/* Global styles
+--------------------*/
+body{background-color: black;
+    color: white;
+
+}
+a{padding-left: 60px;
+    padding-right: 60px;
+    text-align:center;
+    color:rgb(9, 9, 54);
+
+
+}
+a:link {
+    color:rgb(151, 82, 82);
+}
+a:visited {
+    color: rgb(184, 150, 150);
+}
+a:focus {
+    outline: 1px solid black;
+}
+a:active {color:rgb(255, 255, 255)}
+a:hover {
+    text-decoration: yellowgreen;
+}
+ul{text-align: center;
+list-style-position: inside;}
+
+
