@@ -20,6 +20,7 @@ text-decoration: none;
 padding: 8px;
 border-radius:4px;
 }
+.project-item img{float: left;}
 /* Work Experience
 --------------------*/
 .work-experience {background: rgb(238, 213, 130);}
@@ -34,18 +35,28 @@ border-radius:4px;
 h1{text-align:center;
     font-style:normal;
     text-align:center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Courgette', cursive;
+    padding: 10px;
+    border: 5px rgb(130, 203, 231);
+    margin:0;
+    font-size: 100px;
+    line-height:1;
+    text-shadow:blueviolet 2px 2px;
 
 }
 h2{padding-left: 60px;
     padding-right: 60px;
     text-align:center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:0;
+    font-size:50px;
 
 }
 p{padding-left: 60px;
     padding-right: 60px;
     text-align:center;
+    border: 4px black;
+    font-family: 'Roboto', sans-serif;
     
 
 }
@@ -59,10 +70,8 @@ h3{padding-left: 60px;
 
 /* Global styles
 --------------------*/
-body{background-color: black;
-    color: white;
 
-}
+
 a{padding-left: 60px;
     padding-right: 60px;
     text-align:center;
@@ -83,7 +92,19 @@ a:active {color:rgb(255, 255, 255)}
 a:hover {
     text-decoration: yellowgreen;
 }
+.content-wrap {width:1000px;
+margin: 0 auto;
+padding:60px 0;}
 ul{text-align: center;
 list-style-position: inside;}
+
+body {
+    margin:0;
+    font-size: 15px;
+    line-height: 1.5;
+}
+html {box-sizing: border-box;
+}
+*, *before, *after {box-sizing: inherit;}
 
 
