@@ -95,8 +95,7 @@ a:hover {
 .content-wrap {width:1000px;
 margin: 0 auto;
 padding:60px 0;}
-ul{text-align: center;
-list-style-position: inside;}
+
 
 body {
     margin:0;
@@ -106,5 +105,102 @@ body {
 html {box-sizing: border-box;
 }
 *, *before, *after {box-sizing: inherit;}
+
+
+
+
+div#topmenu ul{
+    text-align:left;
+    list-style:none;
+
+}
+div#topmenu ul li {
+    font:bold 12px/18px sans-serif;
+    display:inline-blick;
+    position:relative;
+    padding: 15px 20px;
+    background:rgb(255, 104, 104)
+    cursor:pointer;
+
+}
+
+div#topmenu ul li:hover {
+    background:sandybrown
+    color:springgreen;
+    
+}
+
+div#topmenu ul li ul {
+    padding: 0;
+    position:absolute;
+    top:48px;
+    left:-10000px;
+    width:150px;
+}
+
+div#topmenu ul li ul li {
+    background:tomato;
+    display:block;
+    color:yellow;
+
+}
+
+div#topmenu ul li ul li:hover {
+    background: wheat;
+}
+div#topmenu ul li:hover ul {
+    display:block;
+    left:0px
+}
+ 
+
+
+
+
+ul{text-align:center;
+    list-style:none;}
+    
+
+ul li {
+        font:menu;
+        display:inline-block;
+        position:relative;
+        padding: 20px 30px;
+        background:rgb(255, 104, 104);
+        cursor:pointer;
+        
+    }
+    ul li:hover {
+        background:sandybrown
+        color:sandybrown;
+        
+    }
+    ul li ul {
+        padding: 0;
+        position:absolute;
+        top:60px;
+        left:-10000px;
+        width:150px;
+    }
+    ul li ul li {
+        background:rgb(60, 29, 146);
+        display:block;
+        color:rgb(209, 161, 221);
+    
+    }
+    ul li ul li:hover {
+        background: rgb(0, 31, 134);
+    }
+    ul li:hover ul {
+        display:block;
+        left:0px
+    }
+    #one {text-align: center;
+        list-style-position: inside;
+        
+
+    }
+    
+
 
 
